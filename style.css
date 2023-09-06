@@ -1,0 +1,121 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.calculator {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 320px;
+}
+
+.display {
+  background-color: #444;
+  color: white;
+  font-size: 36px;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 15px;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #666;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.clear {
+  grid-column: 1;
+  background-color: #f46d6d;
+}
+
+#P{
+  background-color: #f46d6d;
+}
+
+#One{
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+#Two{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+#Three{
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+
+#Seven{
+  grid-column-start: 1;
+  grid-row-start: 4;
+}
+
+#Eigth{
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
+
+#Nine{
+  grid-column-start: 3;
+  grid-row-start: 4;
+}
+
+#A{
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+#S{
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+#M{
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+#K{
+  grid-column-start: 4;
+  grid-row-start: 1;
+}
+
+#O{
+  grid-column-start: 4;
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+
+.operator {
+  background-color: #f0ad4e;
+}
+
+.operator:hover {
+  background-color: #d4993a;
+}
